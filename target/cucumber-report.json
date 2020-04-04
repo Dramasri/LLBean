@@ -1,0 +1,163 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-03T09:43:13.217Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1646646,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.launch()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search jeans from search module",
+        "description": "",
+        "id": "search-jeans-for-womens;search-jeans-from-search-module",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1048040,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Launch the application",
+            "match": {
+              "location": "StepDef.launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45232,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Searching for jeans for women",
+            "match": {
+              "location": "StepDef.searching_for_jeans_for_women()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35127,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "List of products appeared",
+            "match": {
+              "location": "StepDef.list_of_products_appeared()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@jeans"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-03T09:43:13.607Z",
+        "before": [
+          {
+            "result": {
+              "duration": 53894,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.launch()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To login the account",
+        "description": "",
+        "id": "search-jeans-for-womens;to-login-the-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Launch the webpage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Move the element to account",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Click login and enter the details",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "click the login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Takes to the home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Search jeans for womens",
+    "description": "",
+    "id": "search-jeans-for-womens",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/c.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
